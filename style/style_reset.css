@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+/* Reset 시작*/
+* {
+    color: #999; /*숫자를 높힐수록 회색이 밝아짐*/
+    font-family: 'Nanum Gothic', sans-serif;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box; /* 에밋:bx탭 */
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+}
+
+a:link {
+    color: #888;
+}
+
+a:visited {
+    color: #333;
+}
+
+a:hover {
+    color: #444;
+}
+
+a:active {
+    color: #444;
+}
+
+img {
+    vertical-align: middle; /*옆에 붙는 텍스트를 중앙배치*/
+}
+
+ul {
+    list-style: none; /*불릿기호 사용x*/
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;    /* 에밋코드:df */
+}
+/*Reset 끝 */
+
+/*가이드 라인*/
+/*div#wrap {border: 1px solid #000;}*/
+/*main#main {border: 1px solid #0f0;}*/
+/*header#header {border: 1px solid #f08;}*/
+/*nav#gnb {border: 1px solid #000;}*/
+/*div#slide {border: 1px solid #000;}*/
+/*div#contents {border: 1px solid #000;}*/
+/*footer#footer {border: 1px solid #000;}*/
+/*가이드라인*/
+
