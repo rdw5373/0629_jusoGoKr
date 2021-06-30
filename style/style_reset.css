@@ -2,7 +2,7 @@
 
 /* Reset 시작*/
 * {
-    color: #999; /*숫자를 높힐수록 회색이 밝아짐*/
+    color: #222; /*숫자를 높힐수록 회색이 밝아짐*/
     font-family: 'Nanum Gothic', sans-serif;
     text-decoration: none;
     padding: 0;
@@ -17,7 +17,7 @@ body {
 }
 
 a:link {
-    color: #888;
+    color: #333;
 }
 
 a:visited {
