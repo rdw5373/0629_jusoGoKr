@@ -36,9 +36,11 @@
                                 <a href="#">도로명주소 소개</a>
                                 <ul class="subMenu">
                                     <li class="subLi"><a href="#">도로명주소란?</a>
-                                    <img src="images/icon_doulewindow.gif" alt="첨부파일 이미지" width="10"></li>
+                                        <img src="images/icon_doulewindow.gif" alt="첨부파일 이미지" width="10">
+                                    </li>
                                     <li class="subLi"><a href="#">아름다운 건물번호판</a>
-                                    <img src="images/icon_doulewindow.gif" alt="첨부파일 이미지" width="10"></li>
+                                        <img src="images/icon_doulewindow.gif" alt="첨부파일 이미지" width="10">
+                                    </li>
                                     <li class="subLi"><a href="#">아름다운 길</a></li>
                                     <li class="subLi"><a href="#">홍보자료</a></li>
                                     <li class="subLi"><a href="#"></a></li>
@@ -50,7 +52,8 @@
                                 <ul class="subMenu">
                                     <li class="subLi"><a href="#">도로명 정보 조회</a></li>
                                     <li class="subLi"><a href="#">도로명주소 지도 보기</a>
-                                    <img src="images/icon_doulewindow.gif" alt="첨부파일 이미지" width="10"></li>
+                                        <img src="images/icon_doulewindow.gif" alt="첨부파일 이미지" width="10">
+                                    </li>
                                     <li class="subLi"><a href="#">도로명주소 고시정보 조회</a></li>
                                     <li class="subLi"><a href="#">도로명주소 안내도 다운로드</a></li>
                                     <li class="subLi"><a href="#"></a></li>
@@ -101,12 +104,19 @@
 
         </div> <!-- div#headerFrame -->
 
-           <div id="gnbBGFrame">
-                <div id="gnbBG"></div>
-           </div> <!--div#gnbBGFrame-->
+        <div id="gnbBGFrame">
+            <div id="gnbBG"></div>
+        </div>
+        <!--div#gnbBGFrame-->
 
         <div id="searchArea">
-            <div id="searchBG"></div> <!-- div#searchArea -->
+            <h1>도로명 주소를 찾으시나요?</h1>
+            <div id="searchBG">
+                <input id="searchWord" type="text" placeholder="예) 한누리대로 411, 국립중앙박물관, 상암동 1595, 초성검색" maxlength="50">
+                <!--검색창 안에 미리 쓰여지는 글자: value벨류 속성-->
+                <span id="closeMark">&times;</span>
+                <span id="searchMark"></span>
+            </div> <!-- div#searchArea -->
         </div> <!-- div#searchArea -->
 
         <div id="contents">
