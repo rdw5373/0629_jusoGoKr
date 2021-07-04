@@ -1,6 +1,7 @@
 @charset "UTF-8";
 @import url(style_reset.css);
 
+
 /* div#headerFrame */
 div#headerFrame {
     border-top: 2px solid #284a7e;
@@ -144,7 +145,7 @@ div#headerMenuArea {
 
 /* div#headerFrame */
 
-
+/* div#gnbBGFrame */
 div#gnbBGFrame {
     width: 100%;
     height: 254px;
@@ -165,7 +166,8 @@ div#gnbBG {
 }
     /* div#gnbBG */
 
-/* div#headerFrame */
+/* div#gnbBGFrame */
+
 
 
 /* div#searchArea */
@@ -191,7 +193,6 @@ div#searchArea>div#searchBG {
     width: 770px;
 
     padding: 12px 26px 25px;
-    padding-top: 18px;
     /*border: 1px solid #f80;*/
     border-radius: 50px;
     margin: 0 auto;
@@ -203,6 +204,8 @@ div#searchArea>div#searchBG span {
     width: 36px;
     height: 36px;
     /*border: 1px solid #000;*/
+
+    cursor: pointer;
     display: inline-block;
 }
 
@@ -246,39 +249,6 @@ div#searchArea>div#searchBG>input::placeholder {
 
 
 /* div#searchArea */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
