@@ -106,29 +106,31 @@
 
         <div id="gnbBGFrame">
             <div id="gnbBG"></div>
-        </div> <!--div#gnbBGFrame-->
+        </div>
+        <!--div#gnbBGFrame-->
 
         <form action="support/sample.html" method="get">
-        <div id="searchArea">
+            <div id="searchArea">
 
-            <h1>도로명 주소를 찾으시나요?</h1>
+                <h1>도로명 주소를 찾으시나요?</h1>
 
-            <div id="searchBG">
-                <input id="searchWord" type="text" placeholder="예) 한누리대로 411, 국립중앙박물관, 상암동 1595, 초성검색" maxlength="50" name="searchKeyword">
-                <!--검색창 안에 미리 쓰여지는 글자: value벨류 속성-->
-                <span id="closeMark">&times;</span>
-                <span id="searchMark"></span> <!-- 전송실행 -->
+                <div id="searchBG">
+                    <input id="searchWord" type="text" placeholder="예) 한누리대로 411, 국립중앙박물관, 상암동 1595, 초성검색" maxlength="50" name="searchKeyword">
+                    <!--검색창 안에 미리 쓰여지는 글자: value벨류 속성-->
+                    <span id="closeMark">&times;</span>
+                    <span id="searchMark"></span> <!-- 전송실행 -->
 
-            </div> <!-- div#searchBG -->
+                </div> <!-- div#searchBG -->
 
-        </div> <!-- div#searchArea -->
+            </div> <!-- div#searchArea -->
         </form>
 
 
         <div id="mainIconLNB_Frame">
             <nav id="mainIconLNB" class="flex-container">
 
-                <div class="mainIconBox" title="도로명주소 지도 보기 새창으로 열림"> <!--title 툴팁으로 나타남-->
+                <div class="mainIconBox" title="도로명주소 지도 보기 새창으로 열림">
+                    <!--title 툴팁으로 나타남-->
                     <div class="mainIcon">
                         <img src="images/icon_qmn_1.png" alt="">
                     </div>
@@ -168,7 +170,47 @@
 
         <div id="jusoIntro_Frame">
 
-            <div id="jusoIntro"></div>
+            <div id="jusoIntro" class="flex-container">
+
+                <div id="aboutJuso">
+
+                    <ul id="jusoItem">
+                        <li class="selected">도로명 주소란?</li>
+                        <li>건물번호 생성과정</li>
+                        <li>도로명의 의미</li>
+                        <li>상세주소에 대해</li>
+                        <li>주소정보시설 확인</li>
+                        <li>국가지점번호란?</li>
+                        <li>국가기초구역의 사용</li>
+                    </ul>
+                </div> <!-- div#aboutJuso --> <!-- 인디케이터 영역 -->
+
+                <div id="slide">
+                    <div id="shuttleFrame">
+                        <div class="flex-container">
+
+                            <div id="jusoRoadSign">
+                                <img src="images/know_addr_1.gif" alt="주소이미지">
+                            </div>
+                            <div id="jusoExplain">
+                                <h2>도로명 주소란?</h2>
+                                <hr>
+                                <p>
+                                    도로명 주소는 <span>도로명 + 건물번호</span>로
+                                    이루어져있습니다.
+                                </p>
+                                <p>
+                                    도로명은 도로구간마다 부여한 이름으로<br>
+                                    <span>명사 + 도로별 구분기준(대로/로/길)</span>으로
+                                    구성합니다.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div> <!-- div#slide -->
+
+            </div> <!-- div#jusoIntro -->
 
         </div> <!-- div#jusoIntro_Frame -->
 
@@ -177,18 +219,6 @@
 </body>
 
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
