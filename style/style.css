@@ -2,7 +2,7 @@
 @import url(style_reset.css);
 
 
-/* div#headerFrame */
+/* div#headerFrame 시작 */
 div#headerFrame {
     border-top: 2px solid #284a7e;
 }
@@ -61,7 +61,7 @@ div#headerMenuArea {
     cursor: pointer;
 }
 
-    /* nav#gnb */
+/* nav#gnb */
 #headerFrame nav#gnb {
     padding-left: 40px;
 }
@@ -141,11 +141,11 @@ div#headerMenuArea {
     background-color: #f56254;
 }
 
-    /* nav#gnb */
+/* nav#gnb */
 
-/* div#headerFrame */
+/* div#headerFrame 끝*/
 
-/* div#gnbBGFrame */
+/* div#gnbBGFrame 시작 */
 div#gnbBGFrame {
     width: 100%;
     height: 254px;
@@ -159,18 +159,19 @@ div#gnbBGFrame {
 
 }
 
-    /* div#gnbBG */
+/* div#gnbBG */
 div#gnbBG {
     width: 100%;
     height: 180px;
 }
-    /* div#gnbBG */
 
-/* div#gnbBGFrame */
+/* div#gnbBG */
+
+/* div#gnbBGFrame 끝*/
 
 
 
-/* div#searchArea */
+/* div#searchArea 시작 */
 div#searchArea {
     width: 100%;
     height: 710px;
@@ -180,7 +181,7 @@ div#searchArea {
     background-position: 50% 50%;
 }
 
-div#searchArea>h1 {
+div#searchArea > h1 {
     color: #fff;
     width: 600px;
     font-size: 40px;
@@ -189,7 +190,7 @@ div#searchArea>h1 {
     margin: 50px auto;
 }
 
-div#searchArea>div#searchBG {
+div#searchArea > div#searchBG {
     width: 770px;
 
     padding: 12px 26px 25px;
@@ -200,7 +201,7 @@ div#searchArea>div#searchBG {
     background-color: #fff;
 }
 
-div#searchArea>div#searchBG span {
+div#searchArea > div#searchBG span {
     width: 36px;
     height: 36px;
     /*border: 1px solid #000;*/
@@ -209,18 +210,19 @@ div#searchArea>div#searchBG span {
     display: inline-block;
 }
 
-div#searchArea>div#searchBG span#closeMark {
+div#searchArea > div#searchBG span#closeMark {
     color: #666;
     font-size: 44px;
     text-align: center;
     line-height: 44px;
     /*display: none; 공간도 같이 사라지므로 안됨, 땡겨옴 */
-    visibility: hidden; /* 공간을 남겨둔채 사라짐 */
+    visibility: hidden;
+    /* 공간을 남겨둔채 사라짐 */
 
     transform: translateY(7px);
 }
 
-div#searchArea>div#searchBG span#searchMark {
+div#searchArea > div#searchBG span#searchMark {
 
     margin-right: 14px;
 
@@ -231,7 +233,7 @@ div#searchArea>div#searchBG span#searchMark {
     transform: translateY(12px);
 }
 
-div#searchArea>div#searchBG>input {
+div#searchArea > div#searchBG > input {
     color: #666;
     width: 620px;
     font-size: 17px;
@@ -240,17 +242,19 @@ div#searchArea>div#searchBG>input {
 }
 
 
-    /* placeholder 속성에 CSS 적용시작*/
-div#searchArea>div#searchBG>input::placeholder {
+/* placeholder 속성에 CSS 적용시작*/
+div#searchArea > div#searchBG > input::placeholder {
     color: #aaa;
     font-size: 19px;
-}    /* 슈도 엘리먼트 속성 */
-    /* placeholder 속성에 CSS 적용시작*/
+}
 
-/* div#searchArea */
+/* 슈도 엘리먼트 속성 */
+/* placeholder 속성에 CSS 적용시작*/
+
+/* div#searchArea 끝 */
 
 
-/*div#mainIconLNB_Frame*/
+/* div#mainIconLNB_Frame 시작 */
 div#mainIconLNB_Frame {
     width: 100%;
     height: 270px;
@@ -260,7 +264,8 @@ div#mainIconLNB_Frame {
     position: absolute;
     transform: translateY(-90%);
 }
-div#mainIconLNB_Frame>nav {
+
+div#mainIconLNB_Frame > nav {
     padding: 10px;
     /*border: 1px solid #f80;*/
 
@@ -273,7 +278,8 @@ div#mainIconLNB_Frame>nav {
     /*border: 1px solid #f80;*/
     margin: 10px 50px;
 
-    cursor: pointer; /*마우스포안터 바뀜:선택되는것*/
+    cursor: pointer;
+    /*마우스포안터 바뀜:선택되는것*/
 }
 
 #mainIconLNB_Frame div.mainIcon {
@@ -283,12 +289,13 @@ div#mainIconLNB_Frame>nav {
 #mainIconLNB_Frame span {
     color: #fff;
     font-size: 24px;
-   /* font-weight: bold;*/
+    /* font-weight: bold;*/
 }
-/*div#mainIconLNB_Frame*/
+
+/*div#mainIconLNB_Frame 끝*/
 
 
-/* div#jusoIntro_Frame */
+/* div#jusoIntro_Frame 시작 */
 div#jusoIntro_Frame {
     width: 100%;
     padding-bottom: 40px;
@@ -311,7 +318,7 @@ div#jusoIntro {
     border: 1px solid #000;
 }*/
 
-#jusoIntro>div#aboutJuso {
+#jusoIntro > div#aboutJuso {
     width: 270px;
     padding: 24px;
     background-color: #f8f8f8;
@@ -321,7 +328,7 @@ div#jusoIntro {
     border: 1px solid #000;
 }*/
 
-#jusoIntro ul#jusoItem>li {
+#jusoIntro ul#jusoItem > li {
     width: 310px;
     font-size: 18px;
     line-height: 42px;
@@ -340,7 +347,7 @@ div#jusoIntro {
 }
 
 
-#jusoIntro>div#slide {
+#jusoIntro > div#slide {
     -webkit-flex: 1px;
     -moz-flex: 1px;
     -ms-flex: 1px;
@@ -360,55 +367,122 @@ div#jusoIntro {
 
 
 
-    /* div#jusoExplain 시작 */
+/* div#jusoExplain 시작 */
 #jusoIntro #jusoExplain h2 {
     font-size: 36px;
     padding-bottom: 20px;
 }
+
 #jusoIntro #jusoExplain hr {
     border: none;
     border-bottom: 1px solid #aaa;
     margin-bottom: 30px;
 }
+
 #jusoIntro #jusoExplain p {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
 }
+
 #jusoIntro #jusoExplain p span {
     color: #08f;
 }
 
-#jusoIntro>div#slide {
+#jusoIntro > div#slide {
     overflow: hidden;
 }
 
 /*#jusoIntro #shuttleFrame {
     border: 1px solid #f00;
 }*/
-    /* div#jusoExplain 끝 */
+/* div#jusoExplain 끝 */
 
-
-/* div#jusoIntro_Frame */
-
-
+/* div#jusoIntro_Frame 끝 */
 
 
 
+/* div#contentsFrame 시작 */
+div#contentsFrame {
+    width: 100%;
+}
+
+div#contents {
+    width: 1200px;
+    padding: 60px 0 40px;
+    border: 1px solid #aaa;
+    margin: 0 auto;
+}
+
+#contents > div {
+    height: 320px;
+    border: 1px solid #08f;
+}
 
 
 
+/*div#userService 600*320 */
+div#userService {
+    width: 600px;
+}
+
+#userService > div#api {
+    padding: 40px 0;
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    background-color: #f5f7fc;
+}
+
+#userService > #api > div.apiBox {
+    text-align: center;
+
+    cursor: pointer;
+
+    -webkit-flex: 1px;
+    -moz-flex: 1px;
+    -ms-flex: 1px;
+    -o-flex: 1px;
+    flex: 1px;
+}
+
+#userService .apiBox:not(first-child) {
+    border-left: 1px solid #ddd;
+}
+
+#userService > div#api a {
+    width: 84px;
+    height: 84px;
+    line-height: 84px;
+    border: 1px solid #ccc;
+    border-radius: 45px;
+    margin: 0px auto 20px;
+    /*외부 가운데 정렬*/
+
+    background-color: #fff;
+    display: block;
+}
+
+#userService > div#api span {
+    font-size: 21px;
+}
+/* div#userService  */
 
 
 
+/* div#noticeBoard 300*320 */
+div#noticeBoard {
+    width: 300px;
+}
+/* div#noticeBoard */
 
 
 
+/* div#helpCenter 300*320 */
+div#helpCenter {
+    width: 300px;
+}
+/* div#helpCenter */
 
 
 
-
-
-
-
-
+/* div#contentsFrame 끝 */
